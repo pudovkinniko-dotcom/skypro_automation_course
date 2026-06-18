@@ -5,53 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb02f75a-5a3e-4f24-9b78-a163bbfbe68d" name="Changes" comment="Merge pull request #1 from pudovkinniko-dotcom/lesson_0&#10;&#10;first push">
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_lesson/address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_lesson/mailing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_lesson/smartphone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_lesson/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/lesson2_for.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/lesson2_if.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/lesson2_interactive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/lesson2_operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/course_group.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/ex2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/ex3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/skypro_automation_course.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_00/script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/address.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/lesson_3_task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_lesson/mailing.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/mailing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
