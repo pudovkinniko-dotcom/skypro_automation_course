@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb02f75a-5a3e-4f24-9b78-a163bbfbe68d" name="Changes" comment="Merge pull request #1 from pudovkinniko-dotcom/lesson_0&#10;&#10;first push">
+      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_lesson/lesson_2_task_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_lesson/address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_lesson/mailing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_lesson/smartphone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_lesson/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/02_lesson/lesson_2_task_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/lesson2_for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/lesson2_if.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/lesson2_interactive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/lesson2_operators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/course_group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/ex1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/ex2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/ex3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout_2/homework_workout/workout_08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/skypro_automation_course.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_00/script.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="lesson_1_task_1" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="First_PR_Pudovkin_133.2 &lt;pudovkinniko@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOSuHRcM7nIz_A&quot;,
+        &quot;number&quot;: 5
+      },
+      &quot;lastSeen&quot;: 1781633924543
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pudovkinniko-dotcom/skypro_automation_course.git&quot;,
+    &quot;accountId&quot;: &quot;f5153550-0171-4451-87a2-820cf5abae8e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3EY3YUsG7O5UebzF8H6ylkD9PT5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.address.executor": "Run",
+    "Python.card.executor": "Run",
+    "Python.ex1.executor": "Run",
+    "Python.ex2.executor": "Run",
+    "Python.ex3.executor": "Run",
+    "Python.lesso_01.executor": "Run",
+    "Python.lesson2_for.executor": "Run",
+    "Python.lesson2_if.executor": "Run",
+    "Python.lesson2_interactive.executor": "Run",
+    "Python.lesson3_class.executor": "Run",
+    "Python.lesson_1_task_1.executor": "Run",
+    "Python.lesson_1_task_2.executor": "Run",
+    "Python.lesson_1_task_3.executor": "Run",
+    "Python.lesson_1_task_4.executor": "Run",
+    "Python.lesson_1_task_5.executor": "Run",
+    "Python.lesson_2_task_1.executor": "Run",
+    "Python.lesson_2_task_2.executor": "Run",
+    "Python.lesson_2_task_3.executor": "Run",
+    "Python.lesson_2_task_4.executor": "Run",
+    "Python.lesson_2_task_5.executor": "Run",
+    "Python.lesson_2_task_6.executor": "Run",
+    "Python.lesson_2_task_7.executor": "Run",
+    "Python.lesson_3_task_1.executor": "Run",
+    "Python.lesson_3_task_2.executor": "Run",
+    "Python.lesson_3_task_3.executor": "Run",
+    "Python.lesson_operators.executor": "Run",
+    "Python.mailing.executor": "Run",
+    "Python.product.executor": "Run",
+    "Python.script.executor": "Run",
+    "Python.user.executor": "Run",
+    "Python.workout_01.executor": "Run",
+    "Python.workout_02.executor": "Run",
+    "Python.workout_03.executor": "Run",
+    "Python.workout_04.executor": "Run",
+    "Python.workout_05.executor": "Run",
+    "Python.workout_06.executor": "Run",
+    "Python.workout_07.executor": "Run",
+    "Python.workout_08.executor": "Run",
+    "Python.Тренировка _01.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "lesson3",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Admin/skypro_automation_course",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\skypro_automation_course" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\skypro_automation_course\03_lesson" />
+      <recent name="C:\Users\Admin\skypro_automation_course\lesson2" />
+      <recent name="C:\Users\Admin\skypro_automation_course\skypro_automation_course" />
+      <recent name="C:\Users\Admin\skypro_automation_course\workout_2" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b3d66beaba9a-c6efb3732140-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26199.168" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb02f75a-5a3e-4f24-9b78-a163bbfbe68d" name="Changes" comment="" />
+      <created>1780341725351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780341725351</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Merge pull request #1 from pudovkinniko-dotcom/lesson_0&#10;&#10;first push">
+      <option name="closed" value="true" />
+      <created>1781633400988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781633400988</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="workout_2" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="workout_2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge pull request #1 from pudovkinniko-dotcom/lesson_0&#10;&#10;first push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #1 from pudovkinniko-dotcom/lesson_0&#10;&#10;first push" />
+  </component>
+</project>

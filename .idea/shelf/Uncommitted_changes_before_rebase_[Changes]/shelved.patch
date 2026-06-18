@@ -1,0 +1,82 @@
+Index: lesson3/user.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson3/user.py b/lesson3/user.py
+new file mode 100644
+--- /dev/null	(date 1781632561567)
++++ b/lesson3/user.py	(date 1781632561567)
+@@ -0,0 +1,21 @@
++class User:
++    age = 0
++
++    def __init__(self, name):
++        print("я создался")
++        self.username = name
++
++    def sayName(self):
++        print("меня зовут ", self.username)
++
++    def sayAge(self):
++        print(self.age)
++
++    def setAge(self, newAge):
++        self.age = newAge
++
++    def addCard(self, card):
++        self.card = card
++
++    def getCard(self):  # метод для распознавания карты
++        return self.card
+\ No newline at end of file
+Index: lesson3/card.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson3/card.py b/lesson3/card.py
+new file mode 100644
+--- /dev/null	(date 1781632123619)
++++ b/lesson3/card.py	(date 1781632123619)
+@@ -0,0 +1,12 @@
++class Card:
++	number = '0000 0000 0000 0000'
++	validDate = '01/99'
++	holder = 'unknown'
++
++	def __init__(self, number, date, holder):
++		self.number = number
++		self.validDate = date
++		self.holder = holder
++
++	def pay(self, amount):
++		print("с карты", self.number, "списали", amount)
+\ No newline at end of file
+Index: lesson3/lesson3_class.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson3/lesson3_class.py b/lesson3/lesson3_class.py
+new file mode 100644
+--- /dev/null	(date 1781632870022)
++++ b/lesson3/lesson3_class.py	(date 1781632870022)
+@@ -0,0 +1,16 @@
++from user import User
++from card import Card
++
++alex = User("Alex")
++mark = User("Mark")
++marta = User("Marta")
++
++alex.sayName()
++alex.sayAge()
++alex.setAge(33)
++alex.sayAge()
++
++
++card = Card("1234 5678 8765 4321", "03/28", "Alex F")
++alex.addCard(card)
++alex.getCard().pay(1000)
+\ No newline at end of file

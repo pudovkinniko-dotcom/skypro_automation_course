@@ -1,0 +1,659 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
++++ /dev/null	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Black">
+-    <option name="sdkName" value="Python 3.14" />
+-  </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
++++ /dev/null	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/skypro_automation_course.iml" filepath="$PROJECT_DIR$/.idea/skypro_automation_course.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/skypro_automation_course.iml
+===================================================================
+diff --git a/.idea/skypro_automation_course.iml b/.idea/skypro_automation_course.iml
+deleted file mode 100644
+--- a/.idea/skypro_automation_course.iml	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
++++ /dev/null	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="Python 3.14" jdkType="Python SDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/profiles_settings.xml	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
++++ /dev/null	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
++++ /dev/null	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
++++ /dev/null	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
+@@ -1,5 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+Index: lesson_00/script.py
+===================================================================
+diff --git a/lesson_00/script.py b/lesson_00/script.py
+deleted file mode 100644
+--- a/lesson_00/script.py	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
++++ /dev/null	(revision 36fb151a050cb7e705e16c29bb313d54001bb4af)
+@@ -1,1 +0,0 @@
+-print("Привет, студент!")
+Index: workout_2/homework_workout/workout_03.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/workout_2/homework_workout/workout_03.py b/workout_2/homework_workout/workout_03.py
+new file mode 100644
+--- /dev/null	(date 1781716472316)
++++ b/workout_2/homework_workout/workout_03.py	(date 1781716472316)
+@@ -0,0 +1,7 @@
++import math # округление. Деление по коробкам
++
++def min_boxes(items):
++    return math.ceil(items / 5)
++
++num_items = int(input("Введите количество предметов: "))
++print(f"Минимальное количество коробок: {min_boxes(num_items)}")
+\ No newline at end of file
+Index: workout_2/homework_workout/workout_04.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/workout_2/homework_workout/workout_04.py b/workout_2/homework_workout/workout_04.py
+new file mode 100644
+--- /dev/null	(date 1781716472320)
++++ b/workout_2/homework_workout/workout_04.py	(date 1781716472320)
+@@ -0,0 +1,13 @@
++n = int(input("Введите число:"))
++
++def check_divisibility (n):
++    for i in range(1, n + 1):
++        if i % 4 == 0:
++            print(f"{i} - Делится и на 2, и на 4")
++        elif i % 2 == 0:
++            print(f"{i} - Делится на 2, но не на 4")
++        else:
++            print(i)
++
++
++check_divisibility(n)
+\ No newline at end of file
+Index: workout_2/homework_workout/workout_05.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/workout_2/homework_workout/workout_05.py b/workout_2/homework_workout/workout_05.py
+new file mode 100644
+--- /dev/null	(date 1781716472324)
++++ b/workout_2/homework_workout/workout_05.py	(date 1781716472324)
+@@ -0,0 +1,13 @@
++def quarter_of_year(month):
++    if 1 <= month <= 3:
++        return "I квартал"
++    if 4 <= month <= 6:
++        return "II квартал"
++    if 7 <= month <= 9:
++        return "III квартал"
++    if 10 <= month <= 12:
++        return "IV квартал"
++    return "Неверный номер месяца"
++
++month = int(input("Введите номер месяца (1-12): "))
++print(quarter_of_year(month))
+\ No newline at end of file
+Index: workout_2/homework_workout/workout_06.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/workout_2/homework_workout/workout_06.py b/workout_2/homework_workout/workout_06.py
+new file mode 100644
+--- /dev/null	(date 1781716472329)
++++ b/workout_2/homework_workout/workout_06.py	(date 1781716472329)
+@@ -0,0 +1,5 @@
++lst = [17, 34, 9, 21, 13, 48, 24, 7, 81, 29, 16, 12, 42]
++
++result = [x for x in lst if x > 15 and x % 3 == 0]
++
++print(result)
+\ No newline at end of file
+Index: workout_2/homework_workout/workout_07.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/workout_2/homework_workout/workout_07.py b/workout_2/homework_workout/workout_07.py
+new file mode 100644
+--- /dev/null	(date 1781716472333)
++++ b/workout_2/homework_workout/workout_07.py	(date 1781716472333)
+@@ -0,0 +1,3 @@
++my_list = list(range(25, 0, -5))
++
++print(my_list)
+\ No newline at end of file
+Index: workout_2/homework_workout/workout_08.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/workout_2/homework_workout/workout_08.py b/workout_2/homework_workout/workout_08.py
+new file mode 100644
+--- /dev/null	(date 1781716472336)
++++ b/workout_2/homework_workout/workout_08.py	(date 1781716472336)
+@@ -0,0 +1,17 @@
++var_1 = 50
++var_2 = 5
++
++temp = var_1
++var_1 = var_2
++var_2 = temp
++
++print("var_1 =", var_1)
++print("var_2 =", var_2)
++
++var_1 = 5
++var_2 = 50
++
++var_1, var_2 = var_2, var_1
++
++print("var_1 =", var_1)
++print("var_2 =", var_2)
+\ No newline at end of file
+Index: 02_lesson/lesson_2_task_1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/02_lesson/lesson_2_task_1.py b/02_lesson/lesson_2_task_1.py
+new file mode 100644
+--- /dev/null	(date 1781716472245)
++++ b/02_lesson/lesson_2_task_1.py	(date 1781716472245)
+@@ -0,0 +1,4 @@
++lst = ['🍇', '🍑', '🍐', '🍊', '🍌', '🍎']
++
++print("Первый элемент:", lst[0])
++print("Последний элемент:", lst[-1])
+Index: 02_lesson/lesson_2_task_2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/02_lesson/lesson_2_task_2.py b/02_lesson/lesson_2_task_2.py
+new file mode 100644
+--- /dev/null	(date 1781716472248)
++++ b/02_lesson/lesson_2_task_2.py	(date 1781716472248)
+@@ -0,0 +1,8 @@
++def is_year_leap(year):
++    return year % 4 == 0
++
++
++current_year = 2028
++is_leap = is_year_leap(current_year)
++
++print(f"год {current_year}: {is_leap}")
+Index: 02_lesson/lesson_2_task_3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/02_lesson/lesson_2_task_3.py b/02_lesson/lesson_2_task_3.py
+new file mode 100644
+--- /dev/null	(date 1781716472250)
++++ b/02_lesson/lesson_2_task_3.py	(date 1781716472250)
+@@ -0,0 +1,14 @@
++a = int(input("Введите число:"))
++
++
++def square(n):
++    area = n ** 2
++
++    if area != int(area):
++        return int(area) + 1
++    return int(area)
++
++
++print(square(a))
++
++square(a)
+Index: 02_lesson/lesson_2_task_4.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/02_lesson/lesson_2_task_4.py b/02_lesson/lesson_2_task_4.py
+new file mode 100644
+--- /dev/null	(date 1781716472253)
++++ b/02_lesson/lesson_2_task_4.py	(date 1781716472253)
+@@ -0,0 +1,16 @@
++d = int(input("Введите число:"))
++
++
++def fizz_buzz(n):
++    for i in range(1, n + 1):
++        if i % 3 == 0 and i % 5 == 0:
++            print("FizzBuzz")
++        elif i % 3 == 0:
++            print("Fizz")
++        elif i % 5 == 0:
++            print("Buzz")
++        else:
++            print(i)
++
++
++fizz_buzz(d)
+Index: 02_lesson/lesson_2_task_5.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/02_lesson/lesson_2_task_5.py b/02_lesson/lesson_2_task_5.py
+new file mode 100644
+--- /dev/null	(date 1781716472256)
++++ b/02_lesson/lesson_2_task_5.py	(date 1781716472256)
+@@ -0,0 +1,19 @@
++month = int(input("Введите месяц:"))
++
++
++def month_to_season(m):
++    if m in (12, 1, 2):
++        return "Зима"
++    elif m in (3, 4, 5):
++        return "Весна"
++    elif m in (6, 7, 8):
++        return "Лето"
++    elif m in (9, 10, 11):
++        return "Осень"
++    else:
++        return "Неверный номер месяца"
++
++
++print(month_to_season(month))
++
++month_to_season(month)
+Index: 02_lesson/lesson_2_task_6.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/02_lesson/lesson_2_task_6.py b/02_lesson/lesson_2_task_6.py
+new file mode 100644
+--- /dev/null	(date 1781716472259)
++++ b/02_lesson/lesson_2_task_6.py	(date 1781716472259)
+@@ -0,0 +1,4 @@
++lst = [11, 5, 8, 32, 15, 3, 20, 132, 21, 4, 555, 9, 20]
++
++result = [x for x in lst if x < 30 and x % 3 == 0]
++print(result)
+Index: 02_lesson/lesson_2_task_7.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/02_lesson/lesson_2_task_7.py b/02_lesson/lesson_2_task_7.py
+new file mode 100644
+--- /dev/null	(date 1781716472261)
++++ b/02_lesson/lesson_2_task_7.py	(date 1781716472261)
+@@ -0,0 +1,2 @@
++for i in range(18, 1, -4):
++    print(i, end=' ')
+Index: lesson2/lesson2_for.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/lesson2_for.py b/lesson2/lesson2_for.py
+new file mode 100644
+--- /dev/null	(date 1781716472287)
++++ b/lesson2/lesson2_for.py	(date 1781716472287)
+@@ -0,0 +1,21 @@
++for x in range(1, 31):
++    print("x = ", x, " x² = ", x*x)
++
++students = ["Александр", "Михаил", "Мария", "Ольга", "Кирилл", "Олеся","Николай","Филип"]
++
++for y in range(0, len(students)):
++    print(students[y])
++
++word = "Test"
++for s in word:
++    print(s)
++
++for student in students:
++    print(student)
++
++# напечатать не четные цифры
++nums = (1,2,3,4,5,6,7,8,9,10)
++
++for n in nums:
++    if (n % 2 == 1):
++        print(n)
+\ No newline at end of file
+Index: lesson2/lesson2_if.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/lesson2_if.py b/lesson2/lesson2_if.py
+new file mode 100644
+--- /dev/null	(date 1781716472292)
++++ b/lesson2/lesson2_if.py	(date 1781716472292)
+@@ -0,0 +1,6 @@
++password = "test1234"
++
++if (password == "test1234"):
++    print("ok")
++else:
++    print("не верный пароль или логин")
+Index: lesson2/lesson2_interactive.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/lesson2_interactive.py b/lesson2/lesson2_interactive.py
+new file mode 100644
+--- /dev/null	(date 1781716472295)
++++ b/lesson2/lesson2_interactive.py	(date 1781716472295)
+@@ -0,0 +1,24 @@
++# как получить от пользователя оцеку
++rate_as_str = input("Поставьте оценку от 1 до 5:")
++rate = int(rate_as_str)
++
++# проверить что оценка от 1 до 5
++if(rate<1):
++    rate = 1
++
++if(rate>5):
++    rate = 5
++# в зависимости от оценки предложить дать обратную связь
++feedback = ''
++
++if rate == 1:
++    feedback = input("Расскажите, что нам улучшить: ")
++elif rate == 2:
++    feedback = input("Расскажите, что вас смутило: ")
++elif rate == 3:
++    feedback = input("Расскажите, как нам стать лучше: ")
++elif rate == 4:
++    feedback = input("Расскажите, почему не 5: ")
++elif rate == 5:
++    feedback = input("Расскажите, за что похвалить сотрудника: ")
++    print(feedback)
+Index: lesson2/lesson2_operators.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/lesson2_operators.py b/lesson2/lesson2_operators.py
+new file mode 100644
+--- /dev/null	(date 1781716472301)
++++ b/lesson2/lesson2_operators.py	(date 1781716472301)
+@@ -0,0 +1,21 @@
++user_login = "adam"
++user_password = "Qwerty123456"
++
++login = input("Login: ")
++password = input("Password: ")
++
++if (login == user_login) and (password == user_password):
++    print("Добро пожаловать")
++else:
++    print("Неверный логин или пароль")
++
++crit1 = "red"
++crit2 = "lock"
++
++colour = input("Colour: ")
++feature = input("Feature: ")
++
++if (colour == crit1) or (feature == crit2):
++        print("Покупаю рюкзак")
++else:
++        print("Ничего не подошло")
+\ No newline at end of file
+Index: lesson2/02_lesson/lesson_2_task_1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/02_lesson/lesson_2_task_1.py b/lesson2/02_lesson/lesson_2_task_1.py
+new file mode 100644
+--- /dev/null	(date 1781716472265)
++++ b/lesson2/02_lesson/lesson_2_task_1.py	(date 1781716472265)
+@@ -0,0 +1,4 @@
++lst = ['🍇', '🍑', '🍐', '🍊', '🍌', '🍎']
++
++print("Первый элемент:", lst[0])
++print("Последний элемент:", lst[-1])
+Index: lesson2/02_lesson/lesson_2_task_2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/02_lesson/lesson_2_task_2.py b/lesson2/02_lesson/lesson_2_task_2.py
+new file mode 100644
+--- /dev/null	(date 1781716472267)
++++ b/lesson2/02_lesson/lesson_2_task_2.py	(date 1781716472267)
+@@ -0,0 +1,8 @@
++def is_year_leap(year):
++    return year % 4 == 0
++
++
++current_year = 2028
++is_leap = is_year_leap(current_year)
++
++print(f"год {current_year}: {is_leap}")
+Index: lesson2/02_lesson/lesson_2_task_3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/02_lesson/lesson_2_task_3.py b/lesson2/02_lesson/lesson_2_task_3.py
+new file mode 100644
+--- /dev/null	(date 1781716472269)
++++ b/lesson2/02_lesson/lesson_2_task_3.py	(date 1781716472269)
+@@ -0,0 +1,14 @@
++a = int(input("Введите число:"))
++
++
++def square(n):
++    area = n ** 2
++
++    if area != int(area):
++        return int(area) + 1
++    return int(area)
++
++
++print(square(a))
++
++square(a)
+Index: lesson2/02_lesson/lesson_2_task_4.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/02_lesson/lesson_2_task_4.py b/lesson2/02_lesson/lesson_2_task_4.py
+new file mode 100644
+--- /dev/null	(date 1781716472271)
++++ b/lesson2/02_lesson/lesson_2_task_4.py	(date 1781716472271)
+@@ -0,0 +1,16 @@
++d = int(input("Введите число:"))
++
++
++def fizz_buzz(n):
++    for i in range(1, n + 1):
++        if i % 3 == 0 and i % 5 == 0:
++            print("FizzBuzz")
++        elif i % 3 == 0:
++            print("Fizz")
++        elif i % 5 == 0:
++            print("Buzz")
++        else:
++            print(i)
++
++
++fizz_buzz(d)
+Index: lesson2/02_lesson/lesson_2_task_5.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/02_lesson/lesson_2_task_5.py b/lesson2/02_lesson/lesson_2_task_5.py
+new file mode 100644
+--- /dev/null	(date 1781716472275)
++++ b/lesson2/02_lesson/lesson_2_task_5.py	(date 1781716472275)
+@@ -0,0 +1,19 @@
++month = int(input("Введите месяц:"))
++
++
++def month_to_season(m):
++    if m in (12, 1, 2):
++        return "Зима"
++    elif m in (3, 4, 5):
++        return "Весна"
++    elif m in (6, 7, 8):
++        return "Лето"
++    elif m in (9, 10, 11):
++        return "Осень"
++    else:
++        return "Неверный номер месяца"
++
++
++print(month_to_season(month))
++
++month_to_season(month)
+Index: lesson2/02_lesson/lesson_2_task_6.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/02_lesson/lesson_2_task_6.py b/lesson2/02_lesson/lesson_2_task_6.py
+new file mode 100644
+--- /dev/null	(date 1781716472279)
++++ b/lesson2/02_lesson/lesson_2_task_6.py	(date 1781716472279)
+@@ -0,0 +1,4 @@
++lst = [11, 5, 8, 32, 15, 3, 20, 132, 21, 4, 555, 9, 20]
++
++result = [x for x in lst if x < 30 and x % 3 == 0]
++print(result)
+Index: lesson2/02_lesson/lesson_2_task_7.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson2/02_lesson/lesson_2_task_7.py b/lesson2/02_lesson/lesson_2_task_7.py
+new file mode 100644
+--- /dev/null	(date 1781716472282)
++++ b/lesson2/02_lesson/lesson_2_task_7.py	(date 1781716472282)
+@@ -0,0 +1,2 @@
++for i in range(18, 1, -4):
++    print(i, end=' ')
+Index: lesson3/product.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson3/product.py b/lesson3/product.py
+new file mode 100644
+--- /dev/null	(date 1781717345828)
++++ b/lesson3/product.py	(date 1781717345828)
+@@ -0,0 +1,1 @@
++class Product:
+\ No newline at end of file
+Index: workout_2/homework_workout/workout_01.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/workout_2/homework_workout/workout_01.py b/workout_2/homework_workout/workout_01.py
+new file mode 100644
+--- /dev/null	(date 1781716472308)
++++ b/workout_2/homework_workout/workout_01.py	(date 1781716472308)
+@@ -0,0 +1,3 @@
++employee_list = ["John Snow", "Piter Pen", "Drakula", "IvanIV", "Moana", "Juilet"]
++# Работа со списками. Выводит определенное значение из списка
++print(employee_list[1] + ", " + employee_list[-2])
+\ No newline at end of file
+Index: workout_2/homework_workout/workout_02.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/workout_2/homework_workout/workout_02.py b/workout_2/homework_workout/workout_02.py
+new file mode 100644
+--- /dev/null	(date 1781716472313)
++++ b/workout_2/homework_workout/workout_02.py	(date 1781716472313)
+@@ -0,0 +1,6 @@
++def dev_by_three(number): # Деление на 3
++    return "Да" if number % 3 == 0 else "Нет"
++
++num = int(input("Введите число: "))
++result = dev_by_three(num)
++print(f"Делится ли на три {num}? - {result}")
+\ No newline at end of file
