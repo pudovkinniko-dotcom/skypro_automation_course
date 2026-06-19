@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb02f75a-5a3e-4f24-9b78-a163bbfbe68d" name="Changes" comment="Merge pull request #1 from pudovkinniko-dotcom/lesson_0&#10;&#10;first push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_lesson/address.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_lesson/lesson_3_task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/lesson_3_task_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_lesson/mailing.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_lesson/mailing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
