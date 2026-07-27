@@ -2,6 +2,8 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
 
@@ -10,7 +12,6 @@ def driver():
     # Настройка и запуск браузера Edge
     service = EdgeService(EdgeChromiumDriverManager().install())
     driver = webdriver.Edge(service=service)
-    driver.implicitly_wait(10)
     driver.maximize_window()
     yield driver
     # Закрытие браузера после завершения теста
@@ -22,6 +23,10 @@ def test_data_types_form(driver):
     driver.get(
         "https://bonigarcia.dev/selenium-webdriver-java/data-types.html"
     )
+
+    # Явное ожидание (WebDriverWait) для первой загрузки формы
+    wait = WebDriverWait(driver, timeout=10)
+    wait.until(EC.presence_of_element_located((By.NAME, "first-name")))
 
     # 2. Заполнить форму значениями
     driver.find_element(By.NAME, "first-name").send_keys("Иван")
@@ -39,9 +44,14 @@ def test_data_types_form(driver):
     driver.find_element(By.NAME, "company").send_keys("SkyPro")
 
     # 3. Нажать кнопку Submit
-    driver.find_element(
-        By.CSS_SELECTOR, "button[type='submit']"
-    ).click()
+    # Находим кнопку Submit
+    submit_button = driver.find_element(By.CSS_SELECTOR, "button[type='submit']")
+
+    # Скроллим к ней, чтобы она стала видимой
+    driver.execute_script("arguments[0].scrollIntoView(true);", submit_button)
+
+    # Кликаем по ней
+    submit_button.click()
 
     # 4. Проверить, что поле Zip code подсвечено красным
     # (класс 'alert-danger')

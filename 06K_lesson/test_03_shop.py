@@ -1,18 +1,20 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 @pytest.fixture
 def driver():
     driver = webdriver.Firefox()
-    driver.implicitly_wait(10)
     driver.maximize_window()
     yield driver
     driver.quit()
 
 
-def test_saucedemo_shop(driver):
+def test_saucedemo_total_price(driver):
+    wait = WebDriverWait(driver, timeout=10)
     # 1. Открыть сайт магазина
     driver.get("https://www.saucedemo.com/")
 
